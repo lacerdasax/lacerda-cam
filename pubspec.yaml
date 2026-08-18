@@ -1,0 +1,20 @@
+name: lacerda_ai_camera
+description: Camera AI Local Sony A1 85mm f1.4 - Retoque rapido offline - VERSAO SIMPLES 100% FUNCIONAL
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+9
+  image: ^4.1.7
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
